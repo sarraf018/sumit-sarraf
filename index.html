@@ -13,12 +13,41 @@
 
   <!-- Section 1: Main Heading -->
   <h1>Hello My Name is Sumit sarraf</h1>
-  <p>I am a student at Seoul Theological University.</p>
-  <p>I am beginning to build websites from scratch.</p>
+  <h2>My Interests</h2>
+<ul>
+  <li>Creative Problem Solving</li>
+  <li>Personal Development & Continuous Learning</li>
+  <li>Music, Travel & Cultural Exploration</li>
+</ul>
+
+<h2>Technologies</h2>
+<ul>
+  <li>HTML & CSS Web Development</li>
+  <li>Python & Programming Fundamentals</li>
+  <li>Artificial Intelligence & Digital Tools</li>
+</ul>
+
+<h2>My Daily Routine</h2>
+<ul>
+  <li>Attend Lectures and Complete Academic Tasks</li>
+  <li>Practice Coding and Improve Technical Skills</li>
+  <li>Exercise, Read, and Plan the Next Day</li>
+</ul>
+
+<h2>My Top 3 Goals</h2>
+<ol>
+  <li>Become a Skilled and Versatile Software Developer</li>
+  <li>Strengthen My Communication and Technical Abilities</li>
+  <li>Create Useful Projects That Solve Real-World Problems</li>
+</ol>
+  <p>I am a student at Seoul Theological University.</p>  <p>Visit my university: <a href="https://www.stu.ac.kr" target="_blank">Seoul Theological University</a></p>
+
+  <p>I am  begineer to build websites from scratch.</p>
 
   
   <!-- Section 2: More about me -->
   <h2>About My Hometown</h2>
+  <img src="image.jpg" alt="my hometown">
   <p>I grew up in Nepal , kalaiya , bara.Nepal has different cultures landscape and weather throughout the country.</p>
   <p>My favorite season is wintebecause the cold wind suit me</p>
 
@@ -29,6 +58,11 @@
   <!--Section 4: Summary -->
   <h4>Summary</h4>
   <p>This page was created during Week 3 class.</p>
+  <!-- Top navigation link -->
+<p><a href="#guestbook">Jump to Guestbook Section ↓</a></p>
+
+<!-- Destination section further down the page -->
+<h2 id="guestbook">Guestbook</h2>
 
 </body>
 </html></title>
@@ -37,3 +71,25 @@
     
 </body>
 </html>
+  <hr>
+  <h2 id="guestbook">Leave a Message (Guestbook)</h2>
+  <form>
+    <p>
+      <label for="visitor-name">Your Name:</label><br>
+      <input type="text" id="visitor-name" name="visitor-name" placeholder="e.g., sumit sarraf" required>
+    </p>
+
+    <p>
+      <label for="visitor-email">Your Email:</label><br>
+      <input type="email" id="visitor-email" name="visitor-email" placeholder="name@example.com" required>
+    </p>
+
+    <p>
+      <label for="visitor-message">Your Message:</label><br>
+      <textarea id="visitor-message" name="visitor-message" rows="4" cols="45" placeholder="Share your greeting, feedback, or thoughts..."></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Submit Message</button>
+    </p>
+  </form>
